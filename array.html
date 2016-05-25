@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <title></title>
+ </head>
+
+  <body>
+    <p>Click button to list all items in the array</p>
+    
+    <button onclick="array.forEach(myFunction)">Click</button>
+     
+     <p id="demo"></p>
+
+<script>
+      var array = [2,4,6,8];
+function myFunction(index,num){
+      document.getElementById("demo").innerHTML = document.getElementById("demo").innerHTML + "index[" +index+ "]:"+ num + "<br/>";
+}
+</script>
+
+</body>
+
+
+</html>
