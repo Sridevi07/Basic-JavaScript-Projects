@@ -1,3 +1,1 @@
-"# getElementById" 
-"# getElementById" 
-"# getElementById" 
+JavaScript Example using getElemendById
